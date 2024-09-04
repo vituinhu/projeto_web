@@ -1,10 +1,11 @@
 .video-container{
     position: relative;
-    width: 640;
+    width: 640px;
 }
 
-.video {
+video {
     height: auto;
+    width: 640px;
 }
 
 .controls {
@@ -17,4 +18,8 @@
     left: 0;
     padding: 10px;
     width: 100%;
+}
+button{
+    padding: 5px 20px;
+    border-radius: 5px;
 }
