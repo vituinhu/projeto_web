@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    min-height: 100vh;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;   
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+}
+
+textarea{
+    height: 120px;
+}
+
+button{
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+ button:hover{
+    background-color: rgb(187, 229, 255);
+}
