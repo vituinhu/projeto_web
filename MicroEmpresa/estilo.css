@@ -1,0 +1,135 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do cabeçalho */
+    padding: 30px;
+    font-family: sans-serif;
+    width: 100%; /* Ajusta a largura do cabeçalho para ocupar toda a largura disponível */
+    box-sizing: border-box; /* Inclui o padding na largura total do cabeçalho */
+}
+
+/* Estilo do corpo da página */
+body {
+    background-color: rgb(255, 244, 224); /* Altere a cor de fundo */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo na horizontal */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do título principal */
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center; /* Centraliza o título horizontalmente */
+}
+
+/* Estilo do banner */
+.banner {
+    display: flex;
+    justify-content: center; /* Centraliza o banner horizontalmente */
+}
+
+/* Estilo dos itens da lista no menu de navegação */
+ul {
+    display: flex;
+    justify-content: center; /* Centraliza a lista horizontalmente */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    color: white; /* Altere a cor do texto dos itens do menu */
+    padding-right: 50px;
+}
+
+nav li a {
+    color: white; /* Define a cor dos links como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav li a:hover {
+    color: darkgrey; /* Cor do link ao passar o mouse */
+}
+
+/* Estilo da grid de cartões */
+.card-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ajusta para 3 colunas de largura igual */
+    gap: 20px; /* Espaço (vão) entre as colunas do grid */
+    width: 100%; /* Ajusta a largura do grid para ocupar toda a largura disponível */
+    max-width: 1300px; /* Define a largura máxima do grid */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+/* Estilo dos cartões individuais */
+.card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(255, 165, 80); /* Adiciona uma sombra */
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column; /* Garante que o conteúdo do cartão flua verticalmente */
+    justify-content: center; /* Centraliza o conteúdo do cartão horizontalmente */
+    align-items: center; /* Centraliza o conteúdo do cartão verticalmente */
+    
+}
+
+/* Estilo das imagens dos cartões */
+.card img {
+    width: 200px; /* Define a largura fixa da imagem */
+    height: 200px; /* Define a altura fixa da imagem */
+    object-fit: cover; /* Faz com que a imagem cubra o container mantendo a proporção */
+    display: block;
+}
+
+/* Estilo do conteúdo dentro do cartão */
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo do título dentro do conteúdo do cartão */
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto dentro do conteúdo do cartão */
+.card-content p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Estilo do botão dentro do conteúdo do cartão */
+.card-content .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Estilo do botão ao passar o mouse */
+.card-content .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Estilo do cartão ao passar o mouse */
+.card:hover {
+    transform: translateY(-5px);
+}
+
