@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="stylec.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+        ul{
+          font-family: 'Quicksand', sans-serif; 
+        }
+        main{
+            font-family: 'quicksand', sans-serif; 
+        }
+      </style>
+</head>
+<head>
+    <a href="index.html"><img src="imagens/techphone1.png" alt=""></a>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                </h1>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Fale Conosco</h2>
+            <form action="enviar-contato.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="problem">Descreva o problema:</label>
+                    <textarea id="problem" name="problem" rows="6" placeholder="Descreva seu problema ou dúvida aqui..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+<div>
+    
+</div>
+    <footer>
+        <div class="rodape">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234063.6668990076!2d-46.46879938005666!3d-23.559650057347234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce709cdd72cb8d%3A0xa0c48f485457b882!2sEscola%20SENAI%20%22Luis%20Eulalio%20de%20Bueno%20Vidigal%20Filho%22!5e0!3m2!1spt-BR!2sbr!4v1726071374263!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
