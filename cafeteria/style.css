@@ -1,0 +1,156 @@
+body {
+    background-color: rgba(222, 184, 135, 0.719);
+    font-family: sans-serif;
+    padding: 20px;   
+  }
+
+  div{
+    border-radius: 15px;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+
+  
+
+  h3{
+    text-align: center;
+    padding-bottom: 6px;
+  }
+
+  .Altitude{
+    padding-left: 20px;
+  }
+  
+  .menu {
+    width: 700px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+  }
+
+  
+  
+  .img {
+    display: inline-block;
+    width: 90px;
+  }
+
+  img{
+    justify-content: center;
+    padding-top: 0;
+  }
+  
+  .hr {
+    height: 1px;
+    background-color: rgba(102, 24, 11);
+    border: none;
+    width: 300px;
+  }
+  
+  .bottom-line {
+    height: 1px;
+    background-color: rgb(102, 24, 11);
+    border: none;
+    width: 375px;
+  }
+
+  .terra{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+    font-size: 18px;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
+
+  .p1{
+    font-size: 11px;
+    padding-bottom: 10px;
+    font-style: italic;
+  }
+
+  .grao{
+    padding-left: 0px;
+  }
+  
+  h4{
+    display: inline;
+    margin-left: 100px;
+  }
+
+  b{
+    justify-content: center;
+    display: flex;
+    
+    
+  }
+
+  .des{
+    font-style: italic;
+    font-size: 10px;
+    display: inline;
+    
+  }
+  
+  .duplo {
+    width: 25%;
+    font-size: 18px;
+    padding-left: 60px;
+  }
+
+  .price2{
+    padding-left: 648px;
+  }
+
+  .price3{
+    padding-left: 648px;
+  }
+
+  .duplo2 {
+    width: 25%;
+    font-size: 18px;
+    padding-left: 45px;
+  }
