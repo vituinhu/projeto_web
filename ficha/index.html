@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ficha de Matrícula</title>
+<link rel="stylesheet" href="style.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+font-family: 'quicksand';
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>FICHA DE MATRÍCULA</h1>
+
+<form>
+<div class="section">
+    <label>Data Matricula:</label>
+    <input type="text">
+    <label>Código da Matrícula:</label>
+    <input type="text">
+</div>
+
+<div class="section">
+    <h2>DADOS DO ALUNO</h2>
+    <label>Nome:</label>
+    <input type="text">
+    <label>Data Nascimento:</label>
+    <input type="text">
+    <label>Naturalidade:</label>
+    <input type="text">
+    <label>UF:</label>
+    <input type="text">
+    <label>CPF:</label>
+    <input type="text">
+    <label>RG:</label>
+    <input type="text">
+    <label>Orgão Exped.:</label>
+    <input type="text">
+    <label>Sexo:</label>
+    <select>
+        <option>Masculino</option>
+        <option>Feminino</option>
+        <option>Outro</option>
+    </select>
+</div>
+
+<div class="section">
+    <h2>FILIAÇÃO</h2>
+    <label>Pai:</label>
+    <input type="text">
+    <label>Telefone:</label>
+    <input type="tel">
+    <label>Mãe:</label>
+    <input type="text">
+    <label>Telefone:</label>
+    <input type="tel">
+    <label>Nome do Responsável:</label>
+    <input type="text">
+    <label>Grau de Parentesco:</label>
+    <input type="text">
+</div>
+
+<div class="section">
+<h2>ENDEREÇO</h2>
+    <label>Rua:</label>
+    <input type="text">
+    <label>Nº:</label>
+    <input type="text">
+    <label>Bairro:</label>
+    <input type="text">
+    <label>Complemento:</label>
+    <input type="text">
+    <label>CEP:</label>
+    <input type="text">
+    <label for="estados">Selecione um estado:</label>
+    <select id="estados" name="estados">
+    <option value="">-- Selecione --</option>
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+    </select>
+
+
+</div>
+
+<div class="section">
+    <h2>ANO ESCOLAR</h2>
+    
+    <input type="text" placeholder="Ano Escolar">
+<div class="section">
+    <h2>DOCUMENTOS PARA A MATRÍCULA</h2>
+    <label>Documento:</label>
+    <input type="text">
+    <label>Quantidade:</label>
+    <input type="number">
+</div>
+
+<div class="section">
+    <h2>OBSERVAÇÕES</h2>
+    <textarea rows="4"></textarea>
+</div>
+
+<button type="submit">Enviar</button>
+</form>
+</div>
+</body>
+</html>
